@@ -12,7 +12,9 @@
         "456Hero"
       ]
     },
-    "hasMany": "Post"
+    "userPosts": {
+      "hasMany": "Post"
+    }
   },
   "Post": {
     "title": { "string": {} },
