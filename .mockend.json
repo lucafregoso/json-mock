@@ -8,13 +8,17 @@
     },
     "password": {
       "string": [
-        "123Hero"
+        "123Hero",
+        "456Hero"
       ]
-    }
+    },
+    "hasMany": "Post"
   },
   "Post": {
     "title": { "string": {} },
-    "content": { "string": {} },
+    "content": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
     "author": {
       "belongsTo": "User"
     }
