@@ -1,0 +1,22 @@
+{
+  "User": {
+    "name": {
+      "string": [
+        "Thor",
+        "Loki"
+      ]
+    },
+    "password": {
+      "string": [
+        "123Hero"
+      ]
+    }
+  },
+  "Post": {
+    "title": { "string": {} },
+    "content": { "string": {} },
+    "author": {
+      "belongsTo": "User"
+    }
+  }
+}
